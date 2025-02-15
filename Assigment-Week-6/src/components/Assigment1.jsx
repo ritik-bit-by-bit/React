@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
 
-function App() {
+function Assigment1() {
   const [fact, setFact] = useState(1);
 
   return (
@@ -29,4 +29,4 @@ function App() {
   return fact;
 },[fact])
 
-export default App;
+export default Assigment1;
